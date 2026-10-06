@@ -1,0 +1,28 @@
+{
+  "es": {
+    "Canopy Gaps": "Claros del dosel",
+    "Detection": "Detección",
+    "Filtering": "Filtrado",
+    "Output": "Salida",
+    "Preprocessing": "Preprocesamiento",
+    "height threshold": "Umbral de altura",
+    "min gap area m2": "Área mínima de claro m2",
+    "max gap area m2": "Área máxima de claro m2",
+    "simplify tolerance": "Tolerancia de simplificación",
+    "min gap width m": "Ancho mínimo de claro m",
+    "smooth chm": "Suavizar CHM",
+    "Maximum CHM height (meters) to consider a pixel as gap.": "Altura máxima de CHM (metros) para considerar un píxel como claro.",
+    "Lower values detect only very open areas (ground-level gaps). Higher values include understory-level gaps and forest edges in the detection.": "Valores más bajos detectan solo zonas muy abiertas (claros a nivel de suelo). Valores más altos incluyen claros de sotobosque y bordes de bosque.",
+    "Minimum gap area (m2) to include in output.": "Área mínima de claro (m2) a incluir en la salida.",
+    "Filters out tiny isolated gap pixels. Increase to focus on ecologically significant gaps.": "Filtra píxeles de claro diminutos y aislados. Aumenta para enfocarte en claros ecológicamente significativos.",
+    "Maximum gap area (m2) to include in output.": "Área máxima de claro (m2) a incluir en la salida.",
+    "Excludes very large open areas (clearings, edges) that may not represent true canopy gaps.": "Excluye zonas abiertas muy grandes (clareos, bordes) que quizá no sean verdaderos claros del dosel.",
+    "Polygon simplification tolerance (meters).": "Tolerancia de simplificación de polígonos (metros).",
+    "Smooths jagged gap boundaries. Higher values produce simpler polygons but lose edge detail. Set to 0 to keep pixel-exact boundaries.": "Suaviza los bordes dentados de los claros. Valores más altos dan polígonos más simples pero pierden detalle de borde. Pon 0 para conservar bordes exactos de píxel.",
+    "Minimum width (meters) of a gap to be included.": "Ancho mínimo (metros) de un claro para incluirlo.",
+    "Filters out thin gaps that may be artifacts of narrow trails or single-pixel noise. The width is estimated from the minimum bounding box of each polygon. Set to 0 to disable.": "Filtra claros angostos que pueden ser artefactos de senderos o ruido de un píxel. El ancho se estima del rectángulo envolvente mínimo de cada polígono. Pon 0 para desactivar.",
+    "Apply Gaussian smoothing to the CHM before gap detection.": "Aplica suavizado gaussiano al CHM antes de detectar claros.",
+    "Reduces noise that creates small spurious gaps. Recommended for high-resolution CHMs (sub-meter). Increases processing time.": "Reduce el ruido que crea claros pequeños espurios. Recomendado para CHM de alta resolución (submétricos). Aumenta el tiempo de proceso.",
+    "<b>Canopy Gaps</b> -- Gap Detection from CHM<br><br>Identifies open areas within the forest canopy by thresholding the CHM and extracting connected components as gap polygons.<br><br><b>Process:</b> Pixels with height below <i>height_threshold</i> are labeled as gaps. Connected gap pixels are grouped into polygons, filtered by area limits, and optionally simplified. Results include a GeoPackage of gap polygons and a summary CSV with gap density statistics.<br><br><b>Tips:</b> For dense forests, use a lower <i>height_threshold</i> (1-2m) to detect small gaps. For open woodlands, increase it (3-5m). Adjust <i>min_gap_area</i> to filter out noise from individual bare pixels.": "<b>Claros del dosel</b> -- Detección de claros desde el CHM<br><br>Identifica zonas abiertas dentro del dosel forestal umbralizando el CHM y extrayendo componentes conexas como polígonos de claro.<br><br><b>Proceso:</b> Los píxeles con altura bajo <i>height_threshold</i> se etiquetan como claros. Los píxeles de claro conexos se agrupan en polígonos, se filtran por límites de área y opcionalmente se simplifican. El resultado incluye un GeoPackage de polígonos y un CSV resumen con estadísticas de densidad de claros.<br><br><b>Consejos:</b> En bosques densos usa un <i>height_threshold</i> bajo (1-2 m) para detectar claros pequeños. En montes abiertos súbelo (3-5 m). Ajusta <i>min_gap_area</i> para filtrar ruido de píxeles sueltos desnudos."
+  }
+}

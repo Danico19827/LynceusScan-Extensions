@@ -1,0 +1,10 @@
+# Pinned dependencies for running this repository's tests and nodes.
+# Python 3.13, Windows 10/11. The LynceusScan core checkout must be on
+# PYTHONPATH; the GUI is not needed (tests run headless).
+numpy==2.5.2
+laspy[lazrs]==2.7.0
+rasterio==1.5.1
+scipy==1.18.1
+shapely==2.1.2
+geopandas==1.1.4
+psutil==7.2.2

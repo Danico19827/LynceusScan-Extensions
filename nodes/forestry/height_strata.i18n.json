@@ -1,0 +1,14 @@
+{
+  "es": {
+    "Height Strata": "Estratos de altura",
+    "Strata": "Estratos",
+    "Output": "Salida",
+    "strata config": "Configuración de estratos",
+    "min area ha": "Área mínima ha",
+    "List of strata as {name, min, max} dicts in meters.": "Lista de estratos como dicts {name, min, max} en metros.",
+    "Define custom vertical strata for your analysis. Each stratum covers [min, max) in meters. Pixels outside all defined strata become NODATA.": "Define estratos verticales personalizados para tu análisis. Cada estrato cubre [min, max) en metros. Los píxeles fuera de todos los estratos quedan NODATA.",
+    "Minimum area (hectares) for a stratum to be reported.": "Área mínima (hectáreas) para reportar un estrato.",
+    "Filters out tiny stratum patches in the summary table. Useful for removing noise. Set to 0 to report all strata regardless of size.": "Filtra parches diminutos en la tabla resumen. Útil para quitar ruido. Pon 0 para reportar todos los estratos sin importar el tamaño.",
+    "<b>Height Strata</b> -- Vertical Canopy Stratification<br><br>Classifies each CHM pixel into one of six predefined vertical strata based on height ranges.<br><br><b>Strata:</b> ground (0-0.5m), understory (0.5-2m), regrowth (2-5m), intermediate (5-10m), upper canopy (10-20m), emergent (20-60m). Outputs a categorical GeoTIFF and a per-stratum area summary CSV.<br><br><b>Tips:</b> Use this to visualize vertical forest structure and compare stratum distribution across sites. The strata boundaries are fixed for consistency across projects.": "<b>Estratos de altura</b> -- Estratificación vertical del dosel<br><br>Clasifica cada píxel del CHM en uno de seis estratos verticales predefinidos según rangos de altura.<br><br><b>Estratos:</b> suelo (0-0,5 m), sotobosque (0,5-2 m), renoval (2-5 m), intermedio (5-10 m), dosel superior (10-20 m), emergente (20-60 m). Salidas: GeoTIFF categórico y CSV con áreas por estrato.<br><br><b>Consejos:</b> Úsalo para visualizar la estructura vertical del bosque y comparar la distribución de estratos entre sitios. Los límites son fijos para mantener consistencia entre proyectos."
+  }
+}

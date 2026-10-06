@@ -1,0 +1,30 @@
+{
+  "es": {
+    "Area-Based Approach": "Enfoque basado en área",
+    "Grid": "Grilla",
+    "Metrics": "Métricas",
+    "Vegetation": "Vegetación",
+    "Quality": "Calidad",
+    "Output": "Salida",
+    "grid size": "Tamaño de celda",
+    "metrics list": "Lista de métricas",
+    "canopy threshold m": "Umbral del dosel m",
+    "lai k": "LAI k",
+    "reliability k": "Fiabilidad k",
+    "min points per cell": "Mín. puntos por celda",
+    "include geometry": "Incluir geometría",
+    "Grid cell size in meters.": "Tamaño de celda de la cuadrícula en metros.",
+    "Smaller cells give finer spatial resolution but increase output size and processing time. Larger cells aggregate more points per cell, improving statistical robustness at the cost of spatial detail.": "Las celdas más pequeñas dan mayor resolución espacial pero aumentan el tamaño de salida y el tiempo de proceso. Las celdas grandes agregan más puntos por celda, mejorando la robustez estadística a costa del detalle espacial.",
+    "Metrics to compute per grid cell.": "Métricas a calcular por celda.",
+    "Minimum height (meters) to consider a point as canopy.": "Altura mínima (metros) para considerar un punto como dosel.",
+    "Used by canopy_cover and LAI calculations. Lower values include more of the understory as 'canopy', increasing cover estimates. Higher values restrict to dominant canopy only.": "Usado por los cálculos de canopy_cover y LAI. Valores más bajos incluyen más sotobosque como 'dosel', aumentando las estimaciones de cobertura. Valores más altos restringen solo al dosel dominante.",
+    "Beer-Lambert extinction coefficient (k) for LAI estimation.": "Coeficiente de extinción de Beer-Lambert (k) para estimar LAI.",
+    "Controls the relationship between canopy cover and LAI. Lower k values produce higher LAI estimates for the same cover. Typical range for forests: 0.4-0.7.": "Controla la relación entre cobertura del dosel y LAI. Valores de k más bajos producen estimaciones de LAI más altas para la misma cobertura. Rango típico en bosques: 0.4-0.7.",
+    "Steepness for the ground-density reliability sigmoid.": "Pendiente de la sigmoide de fiabilidad por densidad de suelo.",
+    "Higher values create a sharper transition: cells need more ground points to achieve high reliability. Lower values are more lenient.": "Valores más altos crean una transición más brusca: las celdas necesitan más puntos de suelo para lograr alta fiabilidad. Valores más bajos son más permisivos.",
+    "Minimum point cloud samples per cell to produce metrics.": "Muestras mínimas de nube de puntos por celda para producir métricas.",
+    "Cells with fewer points are flagged as low-confidence in has_pointcloud_data. Increase to filter out statistically unreliable cells from final outputs.": "Las celdas con menos puntos se marcan como de baja confianza en has_pointcloud_data. Aumenta para filtrar del resultado final las celdas estadísticamente poco fiables.",
+    "Include square polygon geometry in the output GeoPackage.": "Incluye la geometría de polígonos cuadrados en el GeoPackage de salida.",
+    "Disable to output attribute-only tables (smaller files). Useful when integrating with tabular workflows that don't need spatial features.": "Desactívalo para salidas solo tabulares (archivos más pequeños). Útil al integrar con flujos tabulares que no necesitan geometría."
+  }
+}
