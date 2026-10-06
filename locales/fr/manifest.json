@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "id": "fr",
+  "version": "0.1.0",
+  "kind": "locale",
+  "display_name": "Français",
+  "description": "French language pack for LynceusScan.",
+  "author": "Taritolay, Nicolás Daniel",
+  "license": "GPL-3.0-or-later",
+  "payload": {
+    "catalog": "fr.json"
+  }
+}

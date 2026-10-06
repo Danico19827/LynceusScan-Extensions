@@ -21,7 +21,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 
-LANGS = ("es", "ru", "it", "pt-BR")
+LANGS = ("es", "ru", "it", "pt-BR", "zh", "hi", "ar", "fr", "bn")
 
 ALLOW_IDENTICAL = {
     "LiDAR", "CHM", "DSM", "DTM", "CHM A", "CHM B", "LAZ", "LAS",
@@ -37,8 +37,21 @@ ALLOW_IDENTICAL = {
 ALLOW_PER_LANG = {
     "it": {"File", "Input", "Output", "Raster", "Repository", "Copyright"},
     "pt-BR": {"Raster", "classes", "latitude", "longitude"},
+    "fr": {
+        # Genuine French cognates / established French UI conventions.
+        "Pause", "Extensions", "Extensions...", "Description", "Copyright",
+        "Documentation", "Raster", "Segmentation", "Terrain", "Version",
+        "Classification", "Segment {k}/{n}",
+        "Segment {k}/{n} · {points} points", "max {v}", "min {v}",
+        "latitude", "longitude", "(minimum)", "Performance", "Contact",
+        "Multispectral", "Image", "action", "classes", "mode",
+    },
     "es": set(),
     "ru": set(),
+    "zh": set(),
+    "hi": set(),
+    "ar": set(),
+    "bn": set(),
 }
 
 ALLOW_SAME_SPELLING = {
@@ -46,6 +59,11 @@ ALLOW_SAME_SPELLING = {
     "ru": set(),
     "it": set(),
     "pt-BR": set(),
+    "zh": set(),
+    "hi": set(),
+    "ar": set(),
+    "fr": set(),
+    "bn": set(),
 }
 
 

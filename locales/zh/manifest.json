@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "id": "zh",
+  "version": "0.1.0",
+  "kind": "locale",
+  "display_name": "中文简体",
+  "description": "Chinese (Simplified) language pack for LynceusScan.",
+  "author": "Taritolay, Nicolás Daniel",
+  "license": "GPL-3.0-or-later",
+  "payload": {
+    "catalog": "zh.json"
+  }
+}

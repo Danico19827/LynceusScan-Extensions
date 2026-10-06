@@ -16,6 +16,11 @@ nodes appear in the node library under their own category.
 | `ru.lxpkg` | Locale pack | `ru` | Русский | — | GPL-3.0-or-later | Enables Russian in Preferences |
 | `it.lxpkg` | Locale pack | `it` | Italiano | — | GPL-3.0-or-later | Enables Italian in Preferences |
 | `pt-BR.lxpkg` | Locale pack | `pt-BR` | Português (Brasil) | — | GPL-3.0-or-later | Enables Brazilian Portuguese in Preferences |
+| `zh.lxpkg` | Locale pack | `zh` | 中文简体 | — | GPL-3.0-or-later | Enables Simplified Chinese in Preferences |
+| `hi.lxpkg` | Locale pack | `hi` | हिन्दी | — | GPL-3.0-or-later | Enables Hindi in Preferences |
+| `ar.lxpkg` | Locale pack | `ar` | العربية | — | GPL-3.0-or-later | Enables Arabic in Preferences (right-to-left layout) |
+| `fr.lxpkg` | Locale pack | `fr` | Français | — | GPL-3.0-or-later | Enables French in Preferences |
+| `bn.lxpkg` | Locale pack | `bn` | বাংলা | — | GPL-3.0-or-later | Enables Bengali in Preferences |
 
 Notes:
 
