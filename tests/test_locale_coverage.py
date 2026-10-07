@@ -26,16 +26,18 @@ LANGS = ("es", "ru", "it", "pt-BR", "zh", "hi", "ar", "fr", "bn")
 ALLOW_IDENTICAL = {
     "LiDAR", "CHM", "DSM", "DTM", "CHM A", "CHM B", "LAZ", "LAS",
     "NODATA", "GeoPackage", "GeoTIFF", "CSV", "JSON", "LAI", "PMF",
-    "CSF", "SMRF", "NDVI", "NDRE", "GNDVI", "SAVI", "VARI", "GLI",
+    "CSF", "SMRF", "MCC", "ATIN", "NDVI", "NDRE", "GNDVI", "SAVI", "VARI", "GLI",
     "QGIS", "CRS", "EPSG", "WGS84", "ASPRS", "GPKG", "RGB", "EULA",
     "Color", "Copyright", "Inspector", "General", "Backend",
     "x {x}  y {y}", "{size} ({p}%)",
     "json", "csv", "sor", "ror", "SOR", "ROR",
+    "first", "last", "single", "multiple",
     "Zoom 100%",
 }
 
 ALLOW_PER_LANG = {
-    "it": {"File", "Input", "Output", "Raster", "Repository", "Copyright"},
+    "it": {"File", "Input", "Output", "Raster", "Repository", "Copyright",
+           "Area"},
     "pt-BR": {"Raster", "classes", "latitude", "longitude"},
     "fr": {
         # Genuine French cognates / established French UI conventions.
@@ -45,6 +47,7 @@ ALLOW_PER_LANG = {
         "Segment {k}/{n} · {points} points", "max {v}", "min {v}",
         "latitude", "longitude", "(minimum)", "Performance", "Contact",
         "Multispectral", "Image", "action", "classes", "mode",
+        "exclusion",
     },
     "es": set(),
     "ru": set(),

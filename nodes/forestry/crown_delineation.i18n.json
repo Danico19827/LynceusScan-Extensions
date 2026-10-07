@@ -1,0 +1,20 @@
+{
+  "es": {
+    "Tree Crowns": "Copas",
+    "Detection": "Detección",
+    "Preprocessing": "Preprocesamiento",
+    "Filtering": "Filtrado",
+    "Output": "Salida",
+    "min height m": "Altura mínima (m)",
+    "smooth sigma": "Sigma de suavizado",
+    "Minimum CHM height (meters) to process.": "Altura mínima de CHM (metros) a procesar.",
+    "Below this nothing is a tree: raise to ignore shrubs and regeneration.": "Bajo esto nada es árbol: sube para ignorar arbustos y renoval.",
+    "Gaussian smoothing radius (cells) applied to the CHM first.": "Radio de suavizado gaussiano (celdas) aplicado primero al CHM.",
+    "Suppresses pits and noise that split crowns. 0 disables; higher values merge close crowns.": "Suprime pits y ruido que parten copas. 0 desactiva; valores altos fusionan copas cercanas.",
+    "exclusion": "exclusión",
+    "Fraction of tree height below which crown pixels are dropped.": "Fracción de la altura bajo la cual se descartan píxeles de copa.",
+    "Removes low edge pixels from each crown (Silva method). Higher values shrink crowns to their tops; 0 keeps every pixel above min height.": "Remueve píxeles bajos de borde de cada copa (método Silva). Valores altos encogen copas a sus topes; 0 conserva todo sobre la altura mínima.",
+    "<b>Tree Crowns</b> -- Crown Polygons from CHM + Treetops<br><br>Delineates one crown polygon per treetop with a marker-controlled watershed over the smoothed canopy: water floods outward from each treetop until basins meet, and meeting lines become crown borders. Low edge pixels drop out by the exclusion fraction.<br><br><b>Process:</b> Wire a Treetops node for the seeds plus the same CHM. Segments without a treetop (orphans) are discarded; crowns report treetop height and polygon area.<br><br><b>Tips:</b> Same CHM and smoothing on both nodes, or seeds and surface disagree. Raise exclusion to shrink crowns to their tops; lower it to keep full skirts (risk of merging neighbors).": "<b>Copas</b> -- Polígonos de copa desde CHM + Ápices<br><br>Delinea un polígono por ápice con watershed de marcadores sobre el dosel suavizado: el agua inunda desde cada ápice hasta que cuencas se tocan, y las líneas de encuentro son bordes. Píxeles bajos de borde salen por exclusión.<br><br><b>Proceso:</b> Cablea un nodo Ápices para semillas más el mismo CHM. Segmentos sin ápice (huérfanos) se descartan; las copas reportan altura y área.<br><br><b>Consejos:</b> Mismo CHM y suavizado en ambos nodos, o semillas y superficie discrepan. Sube exclusión para encoger a topes; bájala para faldas completas (riesgo de fusionar vecinas).",
+    "Smooths jagged crown boundaries. Higher values produce simpler polygons but lose edge detail. Set to 0 to keep pixel-exact boundaries.": "Suaviza bordes dentados de copa. Valores altos producen polígonos más simples pero pierden detalle; 0 conserva bordes exactos de pixel."
+  }
+}

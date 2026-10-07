@@ -11,6 +11,8 @@ nodes appear in the node library under their own category.
 | `area_based.lxpkg` | Node | `forestry.area_based` | Area-Based Approach | Raster / Analysis | GPL-3.0-or-later | Experimental (AI-assisted): EULA shown once before first use |
 | `canopy_gaps.lxpkg` | Node | `forestry.canopy_gaps` | Canopy Gaps | Raster / Analysis | GPL-3.0-or-later | Experimental (AI-assisted): EULA shown once before first use |
 | `height_strata.lxpkg` | Node | `forestry.height_strata` | Height Strata | Raster / Analysis | GPL-3.0-or-later | Experimental (AI-assisted): EULA shown once before first use |
+| `treetops.lxpkg` | Node | `forestry.treetops` | Treetops | Raster / Analysis | GPL-3.0-or-later | Experimental (AI-assisted): EULA shown once before first use |
+| `crown_delineation.lxpkg` | Node | `forestry.crown_delineation` | Tree Crowns | Raster / Analysis | GPL-3.0-or-later | Experimental (AI-assisted): EULA shown once before first use |
 | `openmeteo.lxpkg` | Node | `openmeteo.query` | Open-Meteo Query | Input | GPL-3.0-or-later | Requires network access to the Open-Meteo API |
 | `es.lxpkg` | Locale pack | `es` | Español | — | GPL-3.0-or-later | Enables Spanish in Preferences |
 | `ru.lxpkg` | Locale pack | `ru` | Русский | — | GPL-3.0-or-later | Enables Russian in Preferences |

@@ -1,0 +1,17 @@
+{
+  "es": {
+    "Treetops": "Ápices",
+    "Detection": "Detección",
+    "Preprocessing": "Preprocesamiento",
+    "min height m": "Altura mínima (m)",
+    "smooth sigma": "Sigma de suavizado",
+    "Minimum CHM height (meters) to process.": "Altura mínima de CHM (metros) a procesar.",
+    "Below this nothing is a tree: raise to ignore shrubs and regeneration.": "Bajo esto nada es árbol: sube para ignorar arbustos y renoval.",
+    "crown factor": "factor de copa",
+    "Crown diameter as a fraction of tree height for the detection window.": "Diámetro de copa como fracción de la altura para la ventana de detección.",
+    "Wider windows merge neighboring crowns (fewer, bigger trees); narrower windows split crowns (more, smaller trees, risk of over-counting). 0.6 follows the forestry literature.": "Ventanas anchas fusionan copas vecinas (menos árboles, más grandes); angostas dividen copas (más árboles chicos, riesgo de sobreconteo). 0.6 sigue la literatura forestal.",
+    "Gaussian smoothing radius (cells) applied to the CHM first.": "Radio de suavizado gaussiano (celdas) aplicado primero al CHM.",
+    "Suppresses pits and noise that split crowns. 0 disables; higher values merge close crowns.": "Suprime pits y ruido que parten copas. 0 desactiva; valores altos fusionan copas cercanas.",
+    "<b>Treetops</b> -- Individual Tree Detection from CHM<br><br>Finds treetops as local maxima of the canopy height model with a height-variable window (taller trees get wider windows), after Gaussian smoothing. Each plateau counts once, at its centroid.<br><br><b>Process:</b> The CHM is smoothed, heights are banded every 2 m, and each band takes local maxima with its own window from the crown factor. Maxima below the minimum height are ignored.<br><br><b>Tips:</b> Feed it a pit-free CHM (Generate CHM with pit_free on) to avoid false tops in pits. Raise the crown factor to merge neighboring crowns, lower it to split them (risk of over-counting).": "<b>Ápices</b> -- Detección de árboles individuales desde CHM<br><br>Encuentra ápices como máximos locales del dosel con ventana variable por altura (árboles más altos, ventanas más anchas), tras suavizado gaussiano. Cada meseta cuenta una vez, en su centroide.<br><br><b>Proceso:</b> El CHM se suaviza, las alturas se bandean cada 2 m, y cada banda toma máximos con su ventana del factor de copa. Máximos bajo la altura mínima se ignoran.<br><br><b>Consejos:</b> Aliméntalo con un CHM sin pits (Generate CHM con pit_free) para evitar falsos ápices. Sube el factor para fusionar copas vecinas, bájalo para dividirlas (riesgo de sobreconteo)."
+  }
+}
